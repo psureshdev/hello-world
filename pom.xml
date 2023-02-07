@@ -28,18 +28,6 @@
       <url>file:///tmp/maven-project-site</url>
     </site>
            
-    <repository>
-        <id>maven-releases</id>
-        <name>maven-releases</name>
-        <url>http://10.120.192.151:8081/repository/maven-releases/</url>
-    </repository>
-
-    <snapshotRepository>
-        <id>maven-snapshots</id>
-        <name>maven-snapshots</name>
-        <ur1>http://10.120.192.151:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-           
   </distributionManagement>
 
   <build>
