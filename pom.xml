@@ -161,6 +161,20 @@
       </plugins>
     </pluginManagement>
   </build>
+         
+  <distributionManagement>
+    <repository>
+        <id>maven-releases</id>
+        <name>maven-releases</name>
+        <url>http://10.120.192.151:8081/repository/maven-releases/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>maven-snapshots</id>
+        <name>maven-snapshots</name>
+        <ur1>http://10.120.192.151:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <dependencyManagement>
     <dependencies>
@@ -216,21 +230,6 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
-         
-<distributionManagement>
-
-    <repository>
-        <id>maven-releases</id>
-        <name>maven-releases</name>
-        <url>http://10.120.192.151:8081/repository/maven-releases/</url>
-    </repository>
-
-    <snapshotRepository>
-        <id>maven-snapshots</id>
-        <name>maven-snapshots</name>
-        <ur1>http://10.120.192.151:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-
-</distributionManagement>
+        
         
 </project>
